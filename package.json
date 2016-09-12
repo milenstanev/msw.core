@@ -10,7 +10,6 @@
     "jspm-install": "../../node_modules/.bin/jspm install",
     "start-dev": "node util/start.dev.js",
     "build": "node util/build.js",
-
     "esdoc": "../../node_modules/.bin/esdoc -c esdoc.json",
     "esdoc-show": "open ./esdoc/index.html"
   },
