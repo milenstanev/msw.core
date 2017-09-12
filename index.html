@@ -12,25 +12,7 @@
 <script src="config.js"></script>
 
 <script>
-  System.import('./index').then(function (r) {
-    console.log( JSON.stringify(r) )
-  })
-  /*System.import('angular').then(function () {
-    //var deps = System.import('./dist/core.dist');
-    var deps = System.import('./index');
-
-    deps.then(function (reference) {
-      angular.module('examlpe', [
-        reference.default.name
-      ]).config([
-        //TODO: ui-view ...
-      ]);
-
-      angular.bootstrap(document.body, [
-        reference.default.name
-      ]);
-    });
-  });*/
+  System.import('./index');
 </script>
 </body>
 </html>

@@ -4,6 +4,7 @@ import 'angular-ui/ui-router';
 import {
   componentConfig  // configure names .etc
 } from './component.config/component.config.js';
+import {COMPONENT_NAME} from "./component.config/constants";
 
 /**
  * @desc Angular module name: prefix.component, description: desc
@@ -25,9 +26,12 @@ import {
  *  - The {cost} to which is assigned module instance is not good practice according good practices from @url https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#modules,
  *    but otherwise we will lose documentation
  */
-const component = angular.module(`${componentConfig.NAMESPACE}.${componentConfig.COMPONENT_NAME}`, [
+const mswCore = angular.module(`${componentConfig.NAMESPACE}.${componentConfig.COMPONENT_NAME}`, [
   'ui.router'
 ]);
 
-export default component;
+export {
+  angular,
+  mswCore
+};
 

@@ -21,7 +21,7 @@ builder.config({
 builder
   .buildStatic(
     `${baseUrl}/index.js`,
-    `${baseUrl}/dist/core.dist.js`,
+    `${baseUrl}/dist.js`,
     {
       minify: true,
       sourceMaps: true,
