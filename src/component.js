@@ -2,13 +2,8 @@ import angular from 'angular';
 import 'angular-ui/ui-router';
 
 import {
-  componentRoutes, // routes
   componentConfig  // configure names .etc
 } from './component.config/component.config.js';
-import ComponentSvc from './component.Svc.js';
-import ComponentCtrl from './component.Ctrl.js';
-import ComponentDirective from './component.Directive.js';
-import componentTemplate from './component.templates/component.template.js';
 
 /**
  * @desc Angular module name: prefix.component, description: desc
@@ -32,25 +27,6 @@ import componentTemplate from './component.templates/component.template.js';
  */
 const component = angular.module(`${componentConfig.NAMESPACE}.${componentConfig.COMPONENT_NAME}`, [
   'ui.router'
-  , componentTemplate.name
-]);
-
-/**
- * @desc Doing overwrite/setting about UI.
- * @type {string}
- */
-component.constant(componentConfig.COMPONENT_CONFIG_NAME, componentConfig);
-
-component.config(componentRoutes);
-
-component.controller(componentConfig.CONTROLLER_NAME, ComponentCtrl);
-
-component.service(componentConfig.SERVICE_NAME, ComponentSvc);
-
-component.directive(componentConfig.DIRECTIVE_NAME_CAPS, [
-  () => {
-    return new ComponentDirective();
-  }
 ]);
 
 export default component;
