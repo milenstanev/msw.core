@@ -15,26 +15,7 @@ const baseUrl = '.';
 const builder = new Builder(`${baseUrl}/`, `${baseUrl}/config.js`);
 
 builder.config({
-  meta: {
-    'angular': {
-      build: false
-    },
-    'angular-ui/ui-router': {
-      build: false
-    },
-    'angular-sanitize': {
-      build: false
-    },
-    'angular-material': {
-      build: false
-    },
-    'text': {
-      build: false
-    },
-    'css': {
-      build: false
-    }
-  }
+  meta: {}
 });
 
 builder
