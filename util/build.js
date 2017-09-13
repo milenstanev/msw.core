@@ -56,6 +56,7 @@ builder
     {
       minify: true,
       sourceMaps: true,
+      mangle: false,
       format: 'umd',
       runtime: false
     }
