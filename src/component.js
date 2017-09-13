@@ -1,7 +1,7 @@
 import angular from 'angular';
 import 'angular-ui/ui-router';
-import 'text';
-import 'css';
+import 'angular-material';
+import 'mgcrea/angular-strap';
 
 import {
   componentConfig  // configure names .etc
@@ -29,11 +29,13 @@ import {COMPONENT_NAME} from "./component.config/constants";
  *    but otherwise we will lose documentation
  */
 const mswCore = angular.module(`${componentConfig.NAMESPACE}.${componentConfig.COMPONENT_NAME}`, [
-  'ui.router'
+  'ui.router',
+  'ngMaterial'
 ]);
 
 export {
   angular,
   mswCore
 };
-
+export {default as text} from 'text';
+export {default as css} from 'css';
