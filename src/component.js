@@ -1,5 +1,7 @@
 import angular from 'angular';
 import 'angular-ui/ui-router';
+import 'text';
+import 'css';
 
 import {
   componentConfig  // configure names .etc
