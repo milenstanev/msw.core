@@ -2,7 +2,7 @@
   "name": "msw.core",
   "version": "1.0.0",
   "description": "",
-  "main": "dist.js",
+  "main": "index.js",
   "dependencies": {
     "jspm": "^0.16.53"
   },
