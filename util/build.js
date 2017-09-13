@@ -16,7 +16,7 @@ const builder = new Builder(`${baseUrl}/`, `${baseUrl}/config.js`);
 
 builder.config({
   meta: {
-    'angular': {
+    /*'angular': {
       build: false
     },
     'angular-material': {
@@ -45,7 +45,7 @@ builder.config({
     },
     'json': {
       build: false
-    }
+    }*/
   }
 });
 
