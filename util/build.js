@@ -15,7 +15,38 @@ const baseUrl = '.';
 const builder = new Builder(`${baseUrl}/`, `${baseUrl}/config.js`);
 
 builder.config({
-  meta: {}
+  meta: {
+    'angular': {
+      build: false
+    },
+    'angular-material': {
+      build: false
+    },
+    'angular-sanitize': {
+      build: false
+    },
+    'angular-ui/ui-router': {
+      build: false
+    },
+    'angular/bower-angular-animate': {
+      build: false
+    },
+    'mgcrea/angular-strap': {
+      build: false
+    },
+    'twbs/bootstrap': {
+      build: false
+    },
+    'text': {
+      build: false
+    },
+    'css': {
+      build: false
+    },
+    'json': {
+      build: false
+    }
+  }
 });
 
 builder
@@ -25,7 +56,7 @@ builder
     {
       minify: true,
       sourceMaps: true,
-      format: 'cjs',
+      format: 'umd', // cjs // es6 without bundle
       runtime: false
     }
   ).then(function() {
