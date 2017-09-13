@@ -39,7 +39,10 @@
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4",
+      "css": "github:systemjs/plugin-css@^0.1.35",
+      "json": "github:systemjs/plugin-json@^0.3.0",
       "mgcrea/angular-strap": "github:mgcrea/angular-strap@^2.3.12",
+      "text": "github:systemjs/plugin-text@^0.0.11",
       "twbs/bootstrap": "github:twbs/bootstrap@^3.3.7"
     },
     "devDependencies": {

@@ -23,7 +23,10 @@ System.config({
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
+    "css": "github:systemjs/plugin-css@0.1.35",
+    "json": "github:systemjs/plugin-json@0.3.0",
     "mgcrea/angular-strap": "github:mgcrea/angular-strap@2.3.12",
+    "text": "github:systemjs/plugin-text@0.0.11",
     "twbs/bootstrap": "github:twbs/bootstrap@3.3.7",
     "github:angular/bower-angular-animate@1.6.6": {
       "angular": "github:angular/bower-angular@1.6.6"
