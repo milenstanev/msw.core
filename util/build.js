@@ -25,7 +25,7 @@ builder
     {
       minify: true,
       sourceMaps: true,
-      format: 'umd',
+      format: 'cjs',
       runtime: false
     }
   ).then(function() {
