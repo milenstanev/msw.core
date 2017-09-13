@@ -31,6 +31,7 @@
   "jspm": {
     "dependencies": {
       "angular": "github:angular/bower-angular@^1.5.8",
+      "angular-animate": "npm:angular-animate@^1.6.6",
       "angular-material": "github:angular/bower-material@^1.1.1",
       "angular-mocks": "npm:angular-mocks@^1.5.8",
       "angular-sanitize": "npm:angular-sanitize@^1.5.8",

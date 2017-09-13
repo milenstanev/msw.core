@@ -1,7 +1,9 @@
 import angular from 'angular';
 import 'angular-ui/ui-router';
 import 'angular-material';
-import 'mgcrea/angular-strap';
+import 'angular-animate';
+
+window.angular = window.angular || angular;
 
 import {
   componentConfig  // configure names .etc
@@ -30,6 +32,7 @@ import {COMPONENT_NAME} from "./component.config/constants";
  */
 const mswCore = angular.module(`${componentConfig.NAMESPACE}.${componentConfig.COMPONENT_NAME}`, [
   'ui.router',
+  'ngAnimate',
   'ngMaterial'
 ]);
 

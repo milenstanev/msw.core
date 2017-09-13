@@ -15,6 +15,7 @@ System.config({
 
   map: {
     "angular": "github:angular/bower-angular@1.6.6",
+    "angular-animate": "npm:angular-animate@1.6.6",
     "angular-material": "github:angular/bower-material@1.1.5",
     "angular-mocks": "npm:angular-mocks@1.6.6",
     "angular-sanitize": "npm:angular-sanitize@1.6.6",

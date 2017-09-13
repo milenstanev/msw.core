@@ -56,7 +56,7 @@ builder
     {
       minify: true,
       sourceMaps: true,
-      format: 'umd', // cjs // es6 without bundle
+      format: 'umd',
       runtime: false
     }
   ).then(function() {
